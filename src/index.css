@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+ /* For Header Image */
+ .header_img{
+  background-image: url(assets/topbar-desktop.png);
+  background-repeat: no-repeat;
+}
+.section-padding{
+  padding: 0%;
+}
+.navbar .getstarted {
+	background: #106eea;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.nav-link{
+	margin-left: 50px;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.btnLink{
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+
+/* Hero Section  */
+
+.hero_bg{
+  background:#F5F8FF;
+  
+}
+.btn_pink{
+  border: 4px solid #EF8094;
+  border-radius: 20px;
+  font-weight: 500;
+}
+/* .box_art_img{
+  position: absolute;
+  z-index: auto;
+  max-width: 22%;
+  height: auto;
+}
+.box_img {
+  position: absolute;
+  z-index: 1;
+  max-width: 52%;
+  height: auto;
+}
+
+.img_block{
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* Hero Text */
+/* .about-text{
+    margin: 8%;
+}
+.text1{
+  font-weight: 500;
+  font-size: 3.5rem;
+
+}
+.text2{
+  font-weight:400;
+  font-size:18px;
+}  */
+
+.work_img{
+  object-position: -111px -166px;
+  max-height: auto;
+  max-width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.work_art_img{
+  max-width:100%;
+  position: relative;
+    object-position: 0px 0px;
+}
+/* Section Part */
+.section_container{
+  width: 70%;
+}
+
+.cropped2 {
+  object-position: -63px 0px;
+  object-fit: cover;
+  max-width: 85%;
+  max-height: 100%;
+}
+.cropped3{
+  object-fit: cover;
+  object-position: 62px 0px;
+  max-width: 85%;
+  height: 100%;
+}
+.text_row_1,.text_row_2,.text_row_3,.img_row_3{
+  text-align: start;
+}
+.img_row_1
+{
+  text-align: end;
+}
+
+/* Footer */
+.footer{
+  background-color: #ecedf142;
+  border: 1px solid #e7e3e3;
+  /* position: absolute; */
+  display:flex;
+  margin: 1%;
+  padding: 1%;
+}
+ .footer_logo{
+  width: 24%;
+  margin-left: 5%;
+}
+.social_logo{
+  margin-left: -5%;
+}
+
+/* For large screens like Desktop  */
+@media screen and (min-width: 1025px) and (max-width: 1200px)  {
+  .cropped3{
+    object-position: 54px 0px;
+    max-width: 100%;
+  }
+  .cropped2 {
+    object-position: -53px 0px;
+    max-width: 100%;
+  }
+  .work_img {
+    max-height:90%;
+    object-position: -205px -180px;
+  }
+  .footer_logo{
+    margin-top: 1%;
+  }
+}
+
+
+/* For small screens like Laptop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar-nav {
+		text-align: center;
+	}
+  .btnLink{
+    border: none;
+  }
+  .work_img {
+    object-position: -148px -106px;
+  }
+  .cropped3 {
+    max-width: 70%;
+    object-position: 0px 0px;
+  }
+  .cropped2 {
+    max-width: 90%;
+  }
+  .text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_3{
+    text-align: center;
+  }
+  .footer_logo{
+    margin-top: 2.5%;
+    width: 33%;
+  }
+}
+
+/* For Tablet */
+@media only screen and (min-width:481px) and (max-width: 768px) {
+   /* For Header Image */
+ .header_img{
+  background-image: url(assets/topbar-tablet.png);
+  background-repeat: no-repeat;
+  }
+	.navbar-nav {
+		text-align: center;
+	}
+  .btnLink{
+    border: none;
+  }
+  .cropped3 {
+    max-width: 90%;
+  }
+  .cropped2 {
+    max-width: 90%;
+  }
+  .text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_3{
+    text-align: center;
+  }
+.work_img {
+  object-position: -89px -70px;
+}
+.btn_pink {
+  border: 2px solid #EF8094;
+  border-radius: 23px;
+  font-weight: 300;
+}
+/* Footer */
+  .footer_logo{
+    width: 60%;
+    margin-top: 4%;
+    margin-left: 15%;
+  }
+}
+
+/* For Mobile */
+@media only screen and (min-width:320px) and (max-width: 480px) {
+  /* For Header Image */
+.header_img{
+ background-image: url(assets/topbar-mobile.png);
+ background-repeat: no-repeat;
+ }
+ .navbar-nav {
+   text-align: center;
+ }
+ .btnLink{
+   border: none;
+ }
+
+
+ /* Section Part */
+ .section_container{
+   width: 100%;
+ }
+.work_art_img
+{
+  display: none;
+}
+ .cropped3 {
+  max-width: 100%;
+  object-position: 25px 0px;
+}
+.cropped2 {
+  max-width: 100%;
+  object-position: -43px 0px;
+}
+.text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_3{
+  text-align: center;
+}
+ /* Footer */
+ .footer_logo{
+   width: 60%;
+   margin-top: 4%;
+   margin-left: 15%;
+ }
+}
