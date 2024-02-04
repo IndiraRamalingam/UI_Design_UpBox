@@ -107,21 +107,17 @@
 .cropped2 {
   border-radius:96% 0 0 0;
   max-width: 85%;
-  /* max-height: 100%;
-  object-position: -63px 0px;
-  object-fit: cover; */
 }
 .cropped3{
   border-radius:0 0 55% 0;
   max-width: 85%;
-  /* height: 100%; 
-   object-fit: cover;
-  object-position: 62px 0px;*/
 }
-.text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_3,.img_row_2{
+.text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_2{
   text-align: start;
 }
-
+.img_row_3{
+  text-align: end;
+}
 
 /* For overlap image */
 
@@ -211,11 +207,16 @@
   top: 29px;
   left: 83%;
 }
-
-  .text_row_1,.text_row_3,.img_row_1,.img_row_3,.img_row_2{
+.cropped2 {
+  max-width: 100%;
+}
+.cropped3{
+  max-width: 100%;
+}
+  .img_row_1,.img_row_2{
     text-align: center;
   }
-  .text_row_2{
+  .text_row_1,.text_row_3,.text_row_2{
     text-align: start;
   }
   .footer_logo{
@@ -299,17 +300,21 @@
 }
 
 /* For Mobile */
-@media only screen and (min-width:310px) and (max-width: 480px) {
+@media only screen and (min-width:280px) and (max-width: 480px) {
   /* For Header Image */
 .header_img{
  background-image: url(assets/topbar-mobile.png);
  background-repeat: no-repeat;
  }
+ .navbar-brand 
+ {
+  width:50%;
+ }
  .navbar-nav {
    text-align: center;
  }
  .navbar-toggler {
-	padding: 1px 4px;
+	padding: 1px 0px;
   }
  .btnLink{
    border: none;
