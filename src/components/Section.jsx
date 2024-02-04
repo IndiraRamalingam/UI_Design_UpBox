@@ -33,6 +33,19 @@ function Section() {
                       
                     </div>
                     <div className="col-12 col-lg-11">
+                        <div className='row'>
+                        <div className='col-12 col-lg-6'></div>
+                        <div className='col-12 col-lg-6 work_container img_row_2'>
+                            {/* <img src={work2} className='work_img1'/>
+                            <img src={work2_art} className='work_art_img1'/> */}
+                             <div class="images">
+                        <img src="https://picsum.photos/400/400?random=1" alt="" />
+                        <img src="https://picsum.photos/400/400?random=2" alt="" />
+                    {/* <img src={box} alt="Box_Images" />
+                    <img src={box_art} alt="Box_art_image" /> */}
+                  </div>
+                        </div>
+                         </div>   
                         {/* <div className='row'>
                             <div className='col-12 col-lg-6 mb-5'>
                                 <img src={work2} className='work_img'/>
@@ -41,7 +54,7 @@ function Section() {
                                 <img src={work2_art} className='work_art_img'/>
                             </div>
                         </div> */}
-                        <div className='row m-5'>
+                        <div className='row'>
                             <div className='col-12 col-lg-6'></div>
                             <div className='col-12 col-lg-6 text_row_2'>
                                 <h4>Review your custom box</h4>
