@@ -364,8 +364,8 @@ display:none;
 .work_img1 {
   position: absolute;
   max-width: 100%;
-  bottom: 0px;
-  left: 85px;
+  bottom: 25px;
+  left: 65px;
   box-shadow: none;
 }
 .work_container{
@@ -373,16 +373,15 @@ display:none;
   height: 200px;
 }
 
- /* .cropped3 {
+.cropped3 {
   max-width: 100%;
-  object-position: 25px 0px;
 }
-.cropped2 {
-  max-width: 100%;
-  object-position: -43px 0px;
-} */
-.text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_3,.img_row_2{
+
+.text_row_1,.text_row_2,.text_row_3,.img_row_3,.img_row_2{
   text-align: center;
+}
+.img_row_1{
+  text-align: start;
 }
 
  /* Footer */

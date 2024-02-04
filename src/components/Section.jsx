@@ -58,7 +58,7 @@ function Section() {
                     <div className="col-12 col-lg-5 img_row_3">
                         <img className="cropped3" src={work3}/>
                     </div>
-                    <div className="col-12 col-lg-7 text_row_3">
+                    <div className="col-12 col-lg-7 mt-5 text_row_3">
                         <h2>Try it on at home</h2>
                         <p>Your box will arrive within 3-5 days (usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>
                     </div>
