@@ -124,26 +124,29 @@
 
 
 /* For overlap image */
-.work_container{
+
+.work_container {
   position: relative;
   width: 400px;
   height: 400px;
 }
-.work_img1{
+
+.work_img1 {
   position: absolute;
   z-index: 1;
-  max-width: 200%;
-  bottom: 15px;
-  left: 0%;
-}
-.work_art_img1{
-  position: absolute;
-  z-index: 0;
-  max-width: 100%;
-  top: 0;
-  left: 100%;
+  max-width: 85%;
+  bottom: 23%;
+  left: 9%;
+  box-shadow: 25px 40px rgb(118 67 67 / 8%);
 }
 
+.work_art_img1 {
+  position: absolute;
+  z-index: 0;
+  max-width: 85%;
+  top: 0;
+  left: 50%;
+}
 
 /* Footer */
 .footer{
@@ -165,28 +168,6 @@
 
 /* For large screens like Desktop  */
 @media screen and (min-width: 1025px) and (max-width: 1200px)  {
-  /* .cropped3{
-    object-position: 54px 0px;
-    max-width: 100%;
-  }
-  .cropped2 {
-    object-position: -53px 0px;
-    max-width: 100%;
-  } */
-  .work_container {
-    height: 325px;
-    width: 250px;
-}
-.work_img1 {
-    left: -155%;
-    max-width: 300%;
-    bottom: -20%;
-}
-.work_art_img1 {
-    max-width: 100%;
-    top: 0;
-    right: 0;
-}
   .footer_logo{
     margin-top: 1%;
   }
@@ -214,32 +195,28 @@
  font-weight:400;
  font-size:13px;
 } 
-  .work_img {
-    object-position: -148px -106px;
-  }
-  /* .cropped3 {
-    max-width: 70%;
-    object-position: 0px 0px;
-  } 
-  .cropped2 {
-    max-width: 90%;
-  } */
-  .work_container {
-    height: 325px;
-    width: 250px;
-}
+
 .work_img1 {
-    left: -155%;
-    max-width:300%;
-    bottom: -20%;
+  position: absolute;
+  z-index: 1;
+  max-width: 70%;
+  bottom: 29%;
+  left: 52%;
+  box-shadow: 25px 40px rgb(118 67 67 / 8%);
 }
 .work_art_img1 {
-    max-width: 100%;
-    top: 0;
-    right: 0;
+  position: absolute;
+  z-index: 0;
+  max-width: 70%;
+  top: 29px;
+  left: 83%;
 }
-  .text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_3,.img_row_2{
+
+  .text_row_1,.text_row_3,.img_row_1,.img_row_3,.img_row_2{
     text-align: center;
+  }
+  .text_row_2{
+    text-align: start;
   }
   .footer_logo{
     margin-top: 2.5%;
@@ -313,9 +290,6 @@
   .text_row_1,.text_row_2,.text_row_3,.img_row_1,.img_row_3,.img_row_2{
     text-align: center;
   }
-.work_img {
-  object-position: -89px -70px;
-}
 /* Footer */
   .footer_logo{
     width: 60%;
@@ -381,12 +355,13 @@ display:none;
 }
 .work_img1 {
   position: absolute;
-  max-width: 300%;
-  bottom: -66px;
-  left: -130px;
+  max-width: 100%;
+  bottom: 0px;
+  left: 85px;
+  box-shadow: none;
 }
 .work_container{
-  width:200px;
+  width:60%;
   height: 200px;
 }
 

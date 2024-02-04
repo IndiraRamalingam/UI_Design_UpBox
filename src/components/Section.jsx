@@ -1,6 +1,7 @@
 import React from 'react'
 import work1 from '../assets/work1.png';
 import work2 from '../assets/work2.png';
+import work2_new from '../assets/work2_new.png';
 import work2_art from '../assets/work2-art.png';
 import work3 from '../assets/work3.png';
 
@@ -34,17 +35,17 @@ function Section() {
                     </div>
                     <div className="col-12 col-lg-11">
                         <div className='row'>
-                        <div className='col-12 col-lg-6'></div>
-                        <div className='col-12 col-lg-6 work_container img_row_2'>
-                            {/* <img src={work2} className='work_img1'/>
-                            <img src={work2_art} className='work_art_img1'/> */}
-                             <div class="images">
+                        <div className='col-12 col-lg-5'></div>
+                        <div className='col-12 col-lg-7 work_container img_row_2'>
+                            <img src={work2_new} className='work_img1'/>
+                            <img src={work2_art} className='work_art_img1'/>
+                             {/* <div className="images"> */}
                         {/* <img src="https://picsum.photos/400/400?random=1" alt="" />
                         <img src="https://picsum.photos/400/400?random=2" alt="" /> */}
-                    <img src={work2} alt="Box_Images" />
+                    {/* <img src={work2_new} alt="Box_Images" />
                     <img src={work2_art} alt="Box_art_image" />
-                  </div>
-                        </div>
+                  </div>*/}
+                        </div> 
                          </div>   
 
                         <div className='row'>
