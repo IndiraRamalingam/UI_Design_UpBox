@@ -1,8 +1,9 @@
 import React from 'react'
 import work1 from '../assets/work1.png';
 import work2 from '../assets/work2.png';
-import work3 from '../assets/work3.png';
 import work2_art from '../assets/work2-art.png';
+import work3 from '../assets/work3.png';
+
 
 function Section() {
   return (
@@ -29,8 +30,7 @@ function Section() {
 
             {/* Third Row */}
                <div className="row justify-content-center">
-                    <div className="col-12 col-lg-1">
-                      
+                    <div className="col-12 col-lg-1">  
                     </div>
                     <div className="col-12 col-lg-11">
                         <div className='row'>
@@ -39,28 +39,20 @@ function Section() {
                             {/* <img src={work2} className='work_img1'/>
                             <img src={work2_art} className='work_art_img1'/> */}
                              <div class="images">
-                        <img src="https://picsum.photos/400/400?random=1" alt="" />
-                        <img src="https://picsum.photos/400/400?random=2" alt="" />
-                    {/* <img src={box} alt="Box_Images" />
-                    <img src={box_art} alt="Box_art_image" /> */}
+                        {/* <img src="https://picsum.photos/400/400?random=1" alt="" />
+                        <img src="https://picsum.photos/400/400?random=2" alt="" /> */}
+                    <img src={work2} alt="Box_Images" />
+                    <img src={work2_art} alt="Box_art_image" />
                   </div>
                         </div>
                          </div>   
-                        {/* <div className='row'>
-                            <div className='col-12 col-lg-6 mb-5'>
-                                <img src={work2} className='work_img'/>
-                            </div>
-                            <div className='col-12 col-lg-6 mb-5' style={{textAlign:'end'}}>
-                                <img src={work2_art} className='work_art_img'/>
-                            </div>
-                        </div> */}
+
                         <div className='row'>
                             <div className='col-12 col-lg-6'></div>
                             <div className='col-12 col-lg-6 text_row_2'>
                                 <h4>Review your custom box</h4>
                                 <p>Once we get to know you, we will show you the box we’ve crafted. This is your chance to approve it before we ship it to your house.</p>
                             </div>
-                           
                         </div>
                     </div>
                 </div>
