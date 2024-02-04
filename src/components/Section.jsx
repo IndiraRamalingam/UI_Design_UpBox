@@ -13,7 +13,8 @@ function Section() {
 
             {/* First Row */}
                 <div className="row m-5 justify-content-center">
-                    <h1 style={{textAlign:'center'}}>How it Works?</h1>
+                    <h1 style={{textAlign:'center', textDecoration: 'underline',
+    textDecorationThickness: '5px'}}>How it Works?</h1>
                 </div>
 
             {/* Second Row */}
