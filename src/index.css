@@ -308,6 +308,9 @@
  .navbar-nav {
    text-align: center;
  }
+ .navbar-toggler {
+	padding: 1px 4px;
+  }
  .btnLink{
    border: none;
  }
