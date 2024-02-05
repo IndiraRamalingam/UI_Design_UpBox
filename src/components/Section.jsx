@@ -25,9 +25,9 @@ function Section() {
                             <img className="cropped2" src={work1} />
                         </div>
                     </div>
-                    <div className="col-12 col-lg-7 mt-5 text_row_1">
+                    <div className="col-12 col-lg-6 mt-5 text_row_1">
                         <h2>Setup your profile & <br /> preferences</h2>
-                        <p>Once you create an account, you can start to tell us your likes and dislikes so we can tailor the experience just for you.</p>
+                        <p className='text_p'>Once you create an account, you can start to tell us your likes and dislikes so we can tailor the experience just for you.</p>
                     </div>
                 </div>
 
@@ -45,10 +45,10 @@ function Section() {
                         </div>
 
                         <div className='row'>
-                            <div className='col-12 col-lg-6'></div>
-                            <div className='col-12 col-lg-6 text_row_2'>
+                            <div className='col-12 col-lg-5'></div>
+                            <div className='col-12 col-lg-7 text_row_2'>
                                 <h2>Review your<br /> custom box</h2>
-                                <p>Once we get to know you, we will show you the box we’ve crafted. This is your chance to approve it before we ship it to your house.</p>
+                                <p className='text_p'>Once we get to know you, we will show you the box we’ve crafted. This is your chance to approve it before we ship it to your house.</p>
                             </div>
                         </div>
                     </div>
@@ -59,9 +59,9 @@ function Section() {
                     <div className="col-12 col-lg-5 img_row_3">
                         <img className="cropped3" src={work3} />
                     </div>
-                    <div className="col-12 col-lg-7 mt-5 text_row_3">
+                    <div className="col-12 col-lg-6 mt-5 text_row_3">
                         <h2>Try it on at home</h2>
-                        <p>Your box will arrive within 3-5 days (usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>
+                        <p className='text_p'>Your box will arrive within 3-5 days (usually sooner) and you get the joy to unbox your Upbox. Try it all on and send back whatever you’re not in love with.</p>
                     </div>
                 </div>
 

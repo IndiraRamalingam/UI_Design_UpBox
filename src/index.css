@@ -93,7 +93,7 @@
 }
 .text2{
   font-weight:400;
-  font-size:13px;
+  font-size:1.2rem;
 } 
 
 /* Section Part */
@@ -139,7 +139,9 @@
   top: 0;
   left: 50%;
 }
-
+.text_p{
+  font-size: 1.3rem;
+}
 /* Footer */
 .footer{
   background-color: #ecedf142;
@@ -203,9 +205,9 @@
   .img_row_1,.img_row_2{
     text-align: center;
   }
-  .text_row_1,.text_row_3,.text_row_2{
+  /* .text_row_1,.text_row_3,.text_row_2{
     text-align: center;
-  }
+  } */
   .footer_logo{
     margin-top: 2.5%;
     width: 33%;
@@ -256,7 +258,7 @@
  font-size:2rem;
 }
 .text2{
- font-size:15px;
+ font-size:14px;
 } 
 .btn_pink {
   font-size: 20px;
@@ -317,7 +319,7 @@ display:none;
   font-size: 3rem;
 }
 .text2{
-  font-size: 20px;
+  font-size: 19px;
 }
 /* Section Part */
  .section_container{
@@ -347,6 +349,9 @@ display:none;
 }
 .img_row_1{
   text-align: start;
+}
+.text_p{
+
 }
 
  /* Footer */
