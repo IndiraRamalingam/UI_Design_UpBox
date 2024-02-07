@@ -1,17 +1,12 @@
 # UI Coding Challenge
 
-
-
 UpBox Landing page was devloped using React.js and bootstrap.
 
 Netlify - [https://master--indira-ui-design-upbox.netlify.app/](https://master--indira-ui-design-upbox.netlify.app/)
 
-
-Click the below links to check the UI in responsive tool - 
-      
-      [Am I Responsive - UpBox](https://ui.dev/amiresponsive?url=https://indira-ui-design-upbox.netlify.app/)
-
-      [Website Responsive Test](https://websiteresponsivetest.com/)
+Use the below tools to check the UI in responsive 
+       - [Am I Responsive Tool](https://ui.dev/amiresponsive?url=https://indira-ui-design-upbox.netlify.app/)  
+       - [Website Responsive Test](https://websiteresponsivetest.com/)
 
 
 ![My Image](./src/assets/UP_BOX_Screenshot.png)
