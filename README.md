@@ -2,7 +2,19 @@
 
 
 
-UpBox Landing page was devloped using React.js and bootstrap with common breakpoints –
+UpBox Landing page was devloped using React.js and bootstrap.
+
+Netlify - [https://master--indira-ui-design-upbox.netlify.app/](https://master--indira-ui-design-upbox.netlify.app/)
+
+
+Click the below links to check the UI in responsive tool - 
+      
+      [Am I Responsive - UpBox](https://ui.dev/amiresponsive?url=https://indira-ui-design-upbox.netlify.app/)
+
+      [Website Responsive Test](https://websiteresponsivetest.com/)
+
+
+![My Image](./src/assets/UP_BOX_Screenshot.png)
 
 
 Types of Breakpoints in Bootstrap:-
@@ -26,14 +38,3 @@ There are four types of breakpoints in bootstrap. They are small (sm), medium (m
             Syntax – @media only screen and (min-width: 1200px) {...}
 
 
-Netlify - [https://master--indira-ui-design-upbox.netlify.app/](https://master--indira-ui-design-upbox.netlify.app/)
-
-
-Click the below links to check the UI in responsive tool - 
-      
-      [Am I Responsive - UpBox](https://ui.dev/amiresponsive?url=https://indira-ui-design-upbox.netlify.app/)
-
-      [Website Responsive Test](https://websiteresponsivetest.com/)
-
-
-![My Image](./src/assets/UP_BOX_Screenshot.png)
