@@ -5,14 +5,14 @@ import Footer from './components/Footer'
 import Section from './components/Section'
 
 function App() {
-  return (
-    <>
-    <NavBar />
-    <Hero_Section />
-    <Section />
-    <Footer />
-    </>
-  )
+	return (
+		<>
+			<NavBar />
+			<Hero_Section />
+			<Section />
+			<Footer />
+		</>
+	)
 }
 
 export default App
